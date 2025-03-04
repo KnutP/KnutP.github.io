@@ -12,8 +12,11 @@
   type: two_col_list
   contents:
     - Computer vision
+
     - Robot perception
+
     - Machine learning
+
     - Simulation
 
 - title: Education
@@ -69,7 +72,7 @@
     - year: Fall 2023
       items:
         - Fundamentals of Power and Energy (Teaching assistant).
-    - year: Spring 2017 - Spring 2021
+    - year: Spr 2017 - Spr 2021
       items:
         - Object-Oriented Software Development (Teaching assistant).
     - year: Winter 2017
@@ -80,10 +83,15 @@
   type: two_col_list
   contents:
     - Linux/Unix
+
     - Python/Numpy/Scipy
+
     - git/gitflow
+
     - ROS/Gazebo
+
     - Pytorch/Tensorflow
+
     - C++/CUDA
 
 - title: Honors and Awards

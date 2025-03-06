@@ -47,7 +47,7 @@ ninja.data = [{
           title: 'Policy Gradients for Aoe2 Unit Micro',
           description: "Fun little reinforcement learning project",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project";
+              window.location.href = "/projects/3_project.html";
             },},{
         id: 'social-email',
         title: 'email',

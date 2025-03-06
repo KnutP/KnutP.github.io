@@ -1,19 +1,19 @@
 ---
 layout: about
-title: About Me
+title: about
 permalink: /
-subtitle: Ph.D. Student, <a href='https://research.coe.drexel.edu/ece/imaple/'>iMaPLe Research Lab</a>, Drexel University
+#subtitle: Ph.D. Student, <a href='https://research.coe.drexel.edu/ece/imaple/'>iMaPLe Research Lab</a>, Drexel University
 
 profile:
   align: left
   image: prof_pic.JPG
   image_circular: true # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
+  more_info: >
+    <p>kp3275@drexel.edu</p>
+    <p>Philadelphia, PA</p>
   #   <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -23,8 +23,6 @@ announcements:
 
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently pursuing a Ph.D. in the Department of Electrical and Computer Engineering at Drexel University under Dr. David Han’s supervision. My research interests are in perception and robotics, especially how deep learning and computer vision can make robotic systems more capable in the real world. Currently my research focuses on the areas of scene understanding, monocular depth estimation, dynamic map prediction, and small object detection.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my B.Sc. in Mechanical Engineering from Rose-Hulman Institute of Technology in 2021, and my M.Sc. in Robotics from Worcester Polytechnic Institute in 2023. During my M.Sc. I also worked as a Software Engineer at Superlative Technologies Inc, a DoD Contractor for the U.S. Transportation Command. Apart from research, I have a wide variety of hobbies ranging from blacksmithing to solving Rubik’s Cubes.

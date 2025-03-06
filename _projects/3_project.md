@@ -48,7 +48,7 @@ and I assigned a reward of +5 for taking the score lead, and -1 for losing it.
         </div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/raw_img2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/frame_diff2.png" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Processed difference frame
         </div>

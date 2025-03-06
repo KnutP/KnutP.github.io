@@ -5,7 +5,6 @@ description: Some of my favorite blacksmithing projects
 img: assets/img/knife_01.jpg
 importance: 3
 category: fun #work
-giscus_comments: true
 ---
 
 I have been blacksmithing as a hobby since 2015, mostly specializing in kitchen knives. Below are some of the knives I've made.

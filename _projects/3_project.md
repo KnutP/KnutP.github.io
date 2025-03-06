@@ -40,25 +40,25 @@ where 1-88 were to click on a different grid cell, and 89 was do nothing.
 I based the reward function on the in-game score since it was possible to check changes in score lead by grabbing pixel colors from the in-game interface,
 and I assigned a reward of +5 for taking the score lead, and -1 for losing it.
 
-<figure >
-    <img src="assets/img/raw_img2.png" width="50%" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption  width="40%" style="text-align: center;">
-        Raw image capture
-    </figcaption>
-</figure>
-<figure >
-    <img src="assets/img/frame_diff2.png" width="50%" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption  width="40%" style="text-align: center;">
-        Processed difference frame
-    </figcaption>
-</figure>
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/raw_img2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Raw image capture
+        </div>
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/raw_img2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Processed difference frame
+        </div>
+    </div>
+</div>
 
 For the input of my model, I wanted to capture movement information while still keeping the input simple, so I took a tip from Andrej Karpathy’s 
  <a href='http://karpathy.github.io/2016/05/31/rl/'>“Pong from Pixels” article</a> on policy gradients, and calculated a difference frame to use as the input.
  For this I first captured 3 frames of gameplay, downsized each frame, and then calculated the difference frame. Then I finally flattened the image
  so the final input to the model was a list of 49686 integers representing the difference frame image.
-
-
 
 For my model, I implemented a simple multi-layer perceptron policy gradient, using the REINFORCE policy gradient algorithm.
 REINFORCE is a “Monte-Carlo Policy Gradient” approach, so it is relatively simple to implement, and it updates every episode.
@@ -67,12 +67,10 @@ For my policy MLP I used an input layer of 49686 nodes (image size), and an outp
 I initially only included 1 hidden layer of size 780, but testing showed that the model struggled to learn and I expanded to 2
 hidden layers for the final model.
 
-<figure >
-    <img src="assets/img/REINFORCE.png" width="50%" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption  width="50%" style="text-align: center;">
-        An overview of the REINFORCE algorithm
-    </figcaption>
-</figure>
+{% include figure.liquid loading="eager" path="assets/img/REINFORCE.png" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    An overview of the REINFORCE algorithm
+</div>
 
 
 
@@ -81,33 +79,32 @@ hidden layers for the final model.
 The model very quickly learned that killing an enemy unit led to a reward, as shown in the demo after 20 training iterations.
 However, it took much longer to learn to avoid enemy arrow fire.
 
-<figure >
-    <img src="assets/img/after-20.gif" width="40%" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption  width="50%" style="text-align: center;">
-        Initial model performance after 20 iterations
-    </figcaption>
-</figure>
-
 By the end of training the model learned to focus enemy units and avoid arrow fire, but was not able to completely beat the 
 in-game AI.
 
-<figure >
-    <img src="assets/img/after-800.gif" width="40%" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption  width="50%" style="text-align: center;">
-        Final model performance after 800 iterations
-    </figcaption>
-</figure>
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/gif/after-20.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Initial model performance after 20 iterations
+        </div>
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/gif/after-800.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Final model performance after 800 iterations
+        </div>
+    </div>
+</div>
 
 From the plot of the average reward vs. training episodes, we can see that the reward quickly increases as the model learns
 to attack enemy units, and then drops as the model learns to dodge arrows. Then the reward begins to climb again as it becomes
 more effective at dodging and eliminates more enemy units before losing.
 
-<figure >
-    <img src="assets/img/avg_reward.png" width="30%" style="display: block; margin-left: auto; margin-right: auto;">
-    <figcaption  width="50%" style="text-align: center;">
-        Plot of reward vs. training iterations
-    </figcaption>
-</figure>
+{% include figure.liquid loading="eager" path="assets/img/avg_reward.png" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    Plot of reward vs. training iterations
+</div>
 
 While the RL agent did not manage to completely beat the in-game AI in the end, there are a few reasons for that. 
 For one, the in-game AI does not micro like a human - it controls units individually instead of as a group,

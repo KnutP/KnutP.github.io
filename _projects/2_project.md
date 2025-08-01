@@ -3,7 +3,7 @@ layout: page
 title: Blacksmithing
 description: Some of my favorite blacksmithing projects
 img: assets/img/knife_01.jpg
-importance: 3
+importance: 4
 category: fun #work
 ---
 

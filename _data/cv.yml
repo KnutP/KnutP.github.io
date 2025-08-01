@@ -8,17 +8,6 @@
     - name: Location
       value: Philadelphia, PA, USA
 
-- title: Academic Interests
-  type: two_col_list
-  contents:
-    - Computer vision
-
-    - Robot perception
-
-    - Machine learning
-
-    - Simulation
-
 - title: Education
   type: time_table
   contents:
@@ -79,21 +68,6 @@
       items:
         - Intro to Software Development (Teaching assistant).
 
-- title: Skills
-  type: two_col_list
-  contents:
-    - Linux/Unix
-
-    - Python/Numpy/Scipy
-
-    - git/gitflow
-
-    - ROS/Gazebo
-
-    - Pytorch/Tensorflow
-
-    - C++/CUDA
-
 - title: Honors and Awards
   type: time_table
   contents:
@@ -107,7 +81,7 @@
 - title: Other Interests
   type: list
   contents:
-    - Rubik’s Cube Solving
+    - Rubik’s Cubes
     - Blacksmithing
     - Printmaking
     - Photography

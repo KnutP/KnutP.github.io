@@ -2,8 +2,8 @@
 layout: page
 title: Policy Gradients for Aoe2 Unit Micro
 description: Fun little reinforcement learning project
-img: assets/img/raw_img2.png
-importance: 1
+img: assets/img/policy_gradients.png
+importance: 2
 category: fun
 related_publications: false
 ---

@@ -3,7 +3,7 @@ layout: page
 title: Robot in 30 Hours
 description: Robot design + build + program (with a time limit!)
 img: assets/img/2023_ri30h.jpg
-importance: 2
+importance: 3
 category: fun
 related_publications: false
 ---

@@ -25,13 +25,19 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A collection of various projects I&#39;ve completed",
+          description: "A collection of various projects, hobbies, and other interests",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "news-as-of-sep-2023-i-will-be-joining-the-imaple-research-lab-as-a-ph-d-student-in-the-department-of-electrical-and-computer-engineering-at-drexel-university-under-supervision-of-dr-david-han",
           title: 'As of Sep. 2023, I will be joining the iMaPLe Research Lab as...',
+          description: "",
+          section: "News",},{id: "news-i-was-awarded-the-patrick-dewar-ph-d-fellowship-to-support-my-work-as-a-ph-d-student-at-drexel-university-thank-you-to-those-who-made-the-award-possible-i-am-very-grateful-for-the-support",
+          title: 'I was awarded the Patrick Dewar Ph.D. Fellowship to support my work as...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-domain-transfered-synthetic-data-generation-for-improving-monocular-depth-estimation-has-been-accepted-to-iccas-25",
+          title: 'Our paper on “Domain Transfered Synthetic Data Generation for Improving Monocular Depth Estimation”...',
           description: "",
           section: "News",},{id: "projects-robot-in-30-hours",
           title: 'Robot in 30 Hours',
@@ -48,6 +54,11 @@ ninja.data = [{
           description: "Fun little reinforcement learning project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
+            },},{id: "projects-rubik-39-s-cube-projects",
+          title: 'Rubik&amp;#39;s Cube Projects',
+          description: "A website I built and a few other things",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project.html";
             },},{
         id: 'social-email',
         title: 'email',

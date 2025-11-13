@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: Misc
+permalink: /Misc/
 description: A collection of various projects, hobbies, and other interests
 nav: true
 nav_order: 4

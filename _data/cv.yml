@@ -16,30 +16,35 @@
       year: 2023-Present
       description:
         - I am currently pursuing a Ph.D. in the Department of Electrical and Computer Engineering at Drexel University under Dr. David Han’s supervision.
-        
         - As a member of the Intelligent Machine Perception and Learning (iMaPLe) research lab computer vision team, I am currently exploring autonomous perception and decision making with applications to robotics.
-#            - Sub-description 1.
-#            - Sub-description 2.
+        - President of the Graduate Christian Fellowship
     - title: M.Sc. Robotics Engineering
       institution: Worcester Polytechnic Institute - Worcester, MA
       year: 2023
     - title: B.Sc. Mechanical Engineering
       institution: Rose-Hulman Institute of Technology - Terre Haute, IN
       year: 2021
+      description:
+        - Completed minors in Robotics and Music.
+        - President of Intervarsity Christian Fellowship, assistant-captain of the Ultimate Frisbee club team, member of campus choir and orchestra.
 
 - title: Work Experience
   type: time_table
   contents:
-    - title: Full-Stack Software Developer
+    - title: Mid-Level Full-Stack Software Developer
       institution: Superlative Technologies
       year: 2021 - 2023
       description:
-        - Redesigned web application authentication system using OAuth 2.0 and OpenID Connect. Maintained web applications and services in C# and Java, and wrote SQL for OracleDB data processing and storage. Built data visualization and analysis tools in React and MaterialUI. Wrote geospatial data processing scripts using Python, ArcPy, and Pandas, and created custom JavaScript widgets using ArcGIS WebApp Builder.
+        - Redesigned web application authentication system from scratch using OAuth 2.0 and OpenID Connect.
+        - Maintained web applications and services in C# and Java, and wrote SQL for OracleDB data processing and storage.
+        - Built data visualization and analysis tools in React and MaterialUI.
+        - Wrote geospatial data processing scripts using Python, ArcPy, and Pandas, and created custom JavaScript widgets using ArcGIS WebApp Builder.
     - title: Undergraduate Robotics Researcher
       institution: Oregon State University
       year: Summer 2020
       description:
-        - Worked as a member of Oregon State University’s SHARE robotics lab, conducting research in consequential robot sound. Conducted multiple studies on how measurable properties of robot sound impact human perception of different attribute scales for a UR5E robot arm. Co-authored a research paper that was presented at the IROS 2021 conference.      
+        - Worked as a member of Oregon State University’s SHARE robotics lab, conducting research in consequential robot sound.
+        - Conducted multiple studies on how measurable properties of robot sound impact human perception of different attribute scales for a UR5E robot arm. Co-authored a research paper that was presented at the IROS 2021 conference.      
     - title: Software Developer Intern
       institution: Superlative Technologies
       year: Summer 2019
@@ -49,28 +54,34 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - year: Fall 2025
+      items:
+        - "ECE303: ECE Laboratory (TA)."
     - year: Summer 2024
       items:
-        - Computer Organization and Architecture (Teaching assistant).
+        - "ECE355: Computer Organization and Architecture (TA)."
     - year: Spring 2024
       items:
-        - Design with Embedded Processors (Teaching assistant).
+        - "ECE302: Design with Embedded Processors (TA)."
     - year: Winter 2024
       items:
-        - Design with Microcontrollers (Teaching assistant).
+        - "ECE204: Design with Microcontrollers (TA)."
     - year: Fall 2023
       items:
-        - Fundamentals of Power and Energy (Teaching assistant).
-    - year: Spr 2017 - Spr 2021
+        - "ECE380: Fundamentals of Power and Energy (TA)."
+    - year: Spring 2017-2021
       items:
-        - Object-Oriented Software Development (Teaching assistant).
+        - "CSSE220: Object-Oriented Software Development (TA)."
     - year: Winter 2017
       items:
-        - Intro to Software Development (Teaching assistant).
+        - "CSSE120: Intro to Software Development (TA)."
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items: 
+        - Patrick Dewar Ph.D. Fellowship
     - year: 2022
       items: 
         - Superlative Technologies Rookie of the Year

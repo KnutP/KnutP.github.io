@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 #subtitle: Ph.D. Student, <a href='https://research.coe.drexel.edu/ece/imaple/'>iMaPLe Research Lab</a>, Drexel University
 

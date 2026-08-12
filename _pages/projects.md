@@ -3,7 +3,7 @@ layout: page
 title: Misc
 permalink: /Misc/
 description: A collection of various projects, hobbies, and other interests
-nav: true
+nav: false
 nav_order: 4
 #display_categories: [work, fun]
 horizontal: false

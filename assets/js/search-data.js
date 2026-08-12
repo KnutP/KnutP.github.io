@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-misc",
-          title: "Misc",
-          description: "A collection of various projects, hobbies, and other interests",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/Misc/";
-          },
         },{id: "news-as-of-sep-2023-i-will-be-joining-the-imaple-research-lab-as-a-ph-d-student-in-the-department-of-electrical-and-computer-engineering-at-drexel-university-under-supervision-of-dr-david-han",
           title: 'As of Sep. 2023, I will be joining the iMaPLe Research Lab as...',
           description: "",

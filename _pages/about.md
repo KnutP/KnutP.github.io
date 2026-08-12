@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-#subtitle: Ph.D. Student, <a href='https://research.coe.drexel.edu/ece/imaple/'>iMaPLe Research Lab</a>, Drexel University
+#subtitle: Ph.D. Candidate, <a href='https://research.coe.drexel.edu/ece/imaple/'>iMaPLe Research Lab</a>, Drexel University
 
 profile:
   align: left
@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 ---
 

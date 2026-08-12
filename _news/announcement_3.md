@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on "Domain Transfered Synthetic Data Generation for Improving Monocular Depth Estimation" has been accepted to ICCAS'25.
+Our paper on "Domain Transfered Synthetic Data Generation for Improving Monocular Depth Estimation" has been accepted to ICCAS 2025.

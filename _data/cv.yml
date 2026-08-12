@@ -4,7 +4,7 @@
     - name: Full Name
       value: Knut Peterson
     - name: e-mail
-      value: kp3275@drexel.edu
+      value: kp3275 (at) drexel.edu
     - name: Location
       value: Philadelphia, PA, USA
 
@@ -79,7 +79,7 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2025
+    - year: 2025, 2026
       items: 
         - Patrick Dewar Ph.D. Fellowship
     - year: 2022
@@ -87,6 +87,6 @@
         - Superlative Technologies Rookie of the Year
     - year: 2016
       items: 
-        - <a href='https://www.firstinspires.org/robotics/ftc/deans-list'>FIRST Tech Challenge Dean’s List Award</a>
+        - <a href='https://www.firstinspires.org/resources/library/ftc/leadership-award'>FIRST Tech Challenge Leadership Award</a>
 
 
